@@ -5,6 +5,7 @@
 
 - type: wechat
   icon: "fab fa-weixin"
+  link: "/assets/img/wechat-code.jpg"
 
 - type: email
   icon: "fas fa-envelope"
