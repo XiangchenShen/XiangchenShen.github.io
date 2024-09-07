@@ -1,5 +1,5 @@
 ---
 layout: categories
-icon: fa-school
+icon: fas fa-school
 order: 1
 ---
