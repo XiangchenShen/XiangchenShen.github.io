@@ -16,7 +16,7 @@ timezone: Asia/Shanghai
 
 title: XiangchenShen # the main title
 
-tagline:  # it will display as the subtitle
+tagline:  Xiangchen Shen's personal website # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Xiangchen Shen's personal website
@@ -216,11 +216,11 @@ exclude:
   - "*.config.js"
   - package*.json
 
-jekyll-archives:
-  enabled: [categories, tags]
-  layouts:
-    category: category
-    tag: tag
-  permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/
+#jekyll-archives:
+#  enabled: [categories, tags]
+#  layouts:
+#    category: category
+#    tag: tag
+#  permalinks:
+#    tag: /tags/:name/
+#    category: /categories/:name/
