@@ -3,9 +3,9 @@
 - type: github
   icon: "fab fa-github"
 
-- type: wechat
+- type: wexin
   icon: "fab fa-weixin"
-  link: "/assets/img/wechat-code.jpg"
+
 
 - type: email
   icon: "fas fa-envelope"
