@@ -3,10 +3,6 @@
 - type: github
   icon: "fab fa-github"
 
-- type: wexin
-  icon: "fab fa-weixin"
-
-
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
