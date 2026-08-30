@@ -12,7 +12,7 @@ permalink: /projects/
     <div class="entry-body">
       <div class="project-meta"><span>Open Source · ECNU</span><span>Automated Mobile Testing</span></div>
       <h2><a href="https://github.com/ecnusse/Kea">Kea</a>  /  <a href="https://github.com/ecnusse/Kea2">Kea2</a></h2>
-      <p>A practical property-based testing tool for finding functional and crash bugs in mobile GUI apps. Kea2 currently supports Android, with HarmonyOS support planned.</p>
+      <p>A practical property-based testing tool for finding functional and crash bugs in mobile GUI apps. </p>
       <p class="entry-links"><a href="https://doi.org/10.1145/3803437.3806416">Tool Paper</a></p>
     </div>
   </article>
