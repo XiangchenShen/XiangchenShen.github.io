@@ -158,8 +158,45 @@ html[data-mode="dark"] .profile-timeline {
 }
 
 .profile-entry--project h2 {
-  margin: 0.65rem 0;
+  margin: 0;
   font-size: 1.25rem;
+}
+
+.project-title-row {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.65rem 0;
+}
+
+.project-title-row h2 {
+  white-space: nowrap;
+}
+
+.project-stars {
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 0.38rem;
+  align-items: center;
+  padding: 0.34rem 0.62rem;
+  border: 1px solid rgba(217, 154, 26, 0.28);
+  border-radius: 999px;
+  color: #805d0b;
+  background: rgba(255, 196, 61, 0.14);
+  font-size: 0.72rem;
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.project-stars i {
+  color: #e3a51a;
+}
+
+.project-stars:hover {
+  color: #654904;
+  text-decoration: none;
+  background: rgba(255, 196, 61, 0.24);
 }
 
 .profile-entry--project .entry-body > p,
