@@ -17,7 +17,7 @@ permalink: /publications/
 
   <article class="publication-card">
     <h2>Kea2: Practical Property-based Testing for Mobile Apps</h2>
-    <p class="publication-venue">34th ACM International Conference on the Foundations of Software Engineering (FSE 2026) · Tool Demonstrations</p>
+    <p class="publication-venue">34th ACM International Conference on the Foundations of Software Engineering (FSE 2026)</p>
     <p class="publication-authors">Xixian Liang, Cheng Peng, Bo Ma, <strong>Xiangchen Shen</strong>, Yiheng Xiong, Ting Su</p>
     <a class="publication-link" href="https://doi.org/10.1145/3803437.3806416" target="_blank" rel="noopener noreferrer">Paper link <span aria-hidden="true">↗</span></a>
   </article>
