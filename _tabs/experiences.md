@@ -22,7 +22,7 @@ permalink: /experiences/
         </div>
         <time>Jul. 2025 – Aug. 2026</time>
       </header>
-      <p class="entry-role">Research & Development Intern</p>
+      <p class="entry-role">Research Intern</p>
     </div>
   </article>
 
@@ -74,7 +74,7 @@ permalink: /experiences/
         </div>
         <time>Sep. 2023 – Jan. 2024</time>
       </header>
-      <p class="entry-role">ML & AI Exchange Student</p>
+      <p class="entry-role">ML & AI Exchange Student(Fully Funded)</p>
     </div>
   </article>
 
