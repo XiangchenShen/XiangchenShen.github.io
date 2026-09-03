@@ -5,6 +5,81 @@ refactor: true
 
 <link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}">
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://xiangchenshen.github.io/#person",
+      "name": "Xiangchen Shen",
+      "alternateName": ["沈祥臣", "XiangchenShen"],
+      "url": "https://xiangchenshen.github.io/",
+      "image": "{{ site.avatar | absolute_url }}",
+      "email": "mailto:{{ site.social.email }}",
+      "jobTitle": "Software Engineering M.S. Student",
+      "description": {{ site.description | jsonify }},
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "East China Normal University",
+        "url": "https://english.ecnu.edu.cn/"
+      },
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Jiangsu University",
+          "url": "https://eng.ujs.edu.cn/"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Toronto",
+          "url": "https://www.utoronto.ca/"
+        }
+      ],
+      "knows": {
+        "@type": "Person",
+        "name": "Ting Su",
+        "url": "https://tingsu.github.io/"
+      },
+      "knowsAbout": [
+        "Program Analysis",
+        "AI for Software Engineering",
+        "LLM Agents",
+        "Automated Software Testing",
+        "Property-Based Testing"
+      ],
+      "sameAs": [
+        "https://github.com/XiangchenShen",
+        "https://conf.researchr.org/profile/xiangchenshen"
+      ]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1145/3803437.3806416",
+      "name": "Kea2: Practical Property-based Testing for Mobile Apps",
+      "url": "https://doi.org/10.1145/3803437.3806416",
+      "identifier": "https://doi.org/10.1145/3803437.3806416",
+      "author": { "@id": "https://xiangchenshen.github.io/#person" }
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1109/SANER56733.2023.00113",
+      "name": "EcoDialTest: Adaptive Mutation Schedule for Automated Dialogue Systems Testing",
+      "url": "https://doi.org/10.1109/SANER56733.2023.00113",
+      "identifier": "https://doi.org/10.1109/SANER56733.2023.00113",
+      "author": { "@id": "https://xiangchenshen.github.io/#person" }
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://conf.researchr.org/details/ase-2026/ase-2026-industry-showcase/75/Model-Guided-Property-Based-Testing-of-WeChat-Pay-at-Billion-User-Scale",
+      "name": "Model-Guided Property-Based Testing of WeChat Pay at Billion-User Scale",
+      "url": "https://conf.researchr.org/details/ase-2026/ase-2026-industry-showcase/75/Model-Guided-Property-Based-Testing-of-WeChat-Pay-at-Billion-User-Scale",
+      "author": { "@id": "https://xiangchenshen.github.io/#person" }
+    }
+  ]
+}
+</script>
+
 <main class="profile-home">
   <h1>Hi, I am Xiangchen Shen <span>(沈祥臣)</span>.</h1>
 
