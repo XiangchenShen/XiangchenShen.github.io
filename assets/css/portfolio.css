@@ -27,11 +27,16 @@ html[data-mode="dark"] .profile-home {
   white-space: nowrap;
 }
 
-.profile-home p {
+.profile-home > p {
   margin: 0 0 1.25rem;
   color: var(--home-muted);
   font-size: 1.02rem;
   line-height: 1.85;
+  text-align: justify !important;
+  text-align-last: left;
+  text-justify: inter-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 
 .profile-home strong {
@@ -54,7 +59,7 @@ html[data-mode="dark"] .profile-home {
     padding: 2rem 0 3rem;
   }
 
-  .profile-home p {
+  .profile-home > p {
     font-size: 0.96rem;
     line-height: 1.75;
   }

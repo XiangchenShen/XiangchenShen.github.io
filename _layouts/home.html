@@ -3,7 +3,7 @@ layout: default
 refactor: true
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}?v=20260920-justify">
 
 <script type="application/ld+json">
 {
@@ -17,7 +17,7 @@ refactor: true
       "url": "https://xiangchenshen.github.io/",
       "image": "{{ site.avatar | absolute_url }}",
       "email": "mailto:{{ site.social.email }}",
-      "jobTitle": "Software Engineering M.S. Student",
+      "jobTitle": "M.S. Student and AI Researcher",
       "description": {{ site.description | jsonify }},
       "affiliation": {
         "@type": "CollegeOrUniversity",
@@ -42,9 +42,12 @@ refactor: true
         "url": "https://tingsu.github.io/"
       },
       "knowsAbout": [
+        "Agentic AI",
+        "Agent RSI",
+        "AI4AI",
+        "Agent Harnesses",
+        "AI4SE",
         "Program Analysis",
-        "AI for Software Engineering",
-        "LLM Agents",
         "Automated Software Testing",
         "Property-Based Testing"
       ],
@@ -87,14 +90,22 @@ refactor: true
     I am an M.S. student in Software Engineering at
     <a href="https://english.ecnu.edu.cn/" target="_blank" rel="noopener noreferrer">East China Normal University</a>,
     advised by Prof. <a href="https://tingsu.github.io/" target="_blank" rel="noopener noreferrer">Ting Su</a>,
-    and expected to graduate in 2028. My research focuses on <strong>Program Analysis</strong>, <strong>AI4SE</strong> and <strong>LLM Agents</strong>. I build automated testing systems
-    that combine model-guided exploration, executable property generation, and intelligent agents to improve
-    the reliability of complex mobile applications.
+    and expected to graduate in 2028. I am currently conducting research at the
+    <a href="https://www.shlab.org.cn/" target="_blank" rel="noopener noreferrer">Shanghai Artificial Intelligence Laboratory</a>,
+    where I am mentored by <a href="https://shuyuehu.github.io/index.html" target="_blank" rel="noopener noreferrer">Shuyue Hu</a>.
+    My research lies broadly in <strong>AI4AI</strong>, with a focus on
+    <strong>Agent RSI</strong> and <strong>Agent Harnesses</strong>.
+    I study how harness design, including skills, tool interfaces, context management, and learning loops, can
+    support reliable agent behavior and enable agents to improve from experience.
   </p>
 
   <p>
-    I interned with <a href="https://www.tencent.com/" target="_blank" rel="noopener noreferrer"> Tencent's </a> WeChat Pay and Technology Architecture Department, where I built automated
-    user-acceptance testing frameworks and developed supporting agents for <a href="https://newsroom.wechat.com/" target="_blank" rel="noopener noreferrer"> WeChat </a> and WeChat Pay, products serving
-    over one billion users. These systems have been deployed in WeChat's internal production environment.
+    Previously, I worked on production-scale <strong>AI4SE</strong>, with an emphasis on
+    intelligent agents and automated software testing. During my internship with
+    <a href="https://www.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent's</a> WeChat Pay and
+    Technology Architecture Department, I built automated user-acceptance testing frameworks and developed agents
+    to support testing workflows for <a href="https://newsroom.wechat.com/" target="_blank" rel="noopener noreferrer">WeChat</a>
+    and WeChat Pay, products serving over one billion users. These systems have been deployed in WeChat's internal
+    production environment.
   </p>
 </main>

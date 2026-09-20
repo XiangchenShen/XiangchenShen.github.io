@@ -12,6 +12,22 @@ permalink: /experiences/
 <div class="profile-timeline">
   <article class="profile-entry">
     <div class="org-logo org-logo--wide">
+      <img src="{{ '/assets/img/logos/ailab.png' | relative_url }}" alt="Shanghai Artificial Intelligence Laboratory logo">
+    </div>
+    <div class="entry-body">
+      <header class="entry-heading">
+        <div>
+          <span class="entry-kicker">Industry Experience</span>
+          <h2>Shanghai Artificial Intelligence Laboratory</h2>
+        </div>
+        <time>Sep. 2026 – Present</time>
+      </header>
+        <p class="entry-role">Research Intern</p>
+    </div>
+  </article>
+
+  <article class="profile-entry">
+    <div class="org-logo org-logo--wide">
       <img src="{{ '/assets/img/logos/tencent.png' | relative_url }}" alt="Tencent logo">
     </div>
     <div class="entry-body">
