@@ -10,6 +10,7 @@ permalink: /experiences/
 <h2 class="profile-section-title">Industry</h2>
 
 <div class="profile-timeline">
+  {% comment %}
   <article class="profile-entry">
     <div class="org-logo org-logo--wide">
       <img src="{{ '/assets/img/logos/ailab.png' | relative_url }}" alt="Shanghai Artificial Intelligence Laboratory logo">
@@ -25,6 +26,7 @@ permalink: /experiences/
         <p class="entry-role">Research Intern</p>
     </div>
   </article>
+  {% endcomment %}
 
   <article class="profile-entry">
     <div class="org-logo org-logo--wide">
