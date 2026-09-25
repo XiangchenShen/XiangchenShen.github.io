@@ -12,6 +12,7 @@ permalink: /publications/
     <h2>Model-Guided Property-Based Testing of WeChat Pay at Billion-User Scale</h2>
     <p class="publication-venue">41st IEEE/ACM International Conference on Automated Software Engineering (ASE 2026)</p>
     <p class="publication-authors"><strong>Xiangchen Shen</strong>, Yiting Wang, Ting Su, Jingjing Liang, Jingling Sun, Xixian Liang, Haiying Sun, Xinjie Xu, Haochuan Lu, Yuetang Deng, Pengcheng Wang, Geguang Pu, Zhendong Su, John Hughes</p>
+    <a class="publication-link" href="{{ '/assets/papers/WechatPay_PBT.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Preprint <span aria-hidden="true">↗</span></a>
     <a class="publication-link" href="https://conf.researchr.org/details/ase-2026/ase-2026-industry-showcase/75/Model-Guided-Property-Based-Testing-of-WeChat-Pay-at-Billion-User-Scale" target="_blank" rel="noopener noreferrer">Paper link <span aria-hidden="true">↗</span></a>
   </article>
 
