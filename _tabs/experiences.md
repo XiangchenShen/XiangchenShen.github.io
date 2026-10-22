@@ -18,11 +18,11 @@ permalink: /experiences/
       <header class="entry-heading">
         <div>
           <span class="entry-kicker">Industry Experience</span>
-          <h2>ByteDance - Douyin R&amp;D - AI Technology Research &amp; Enablement</h2>
+          <h2>Douyin - AI Technology Research &amp; Enablement</h2>
         </div>
         <time>Oct. 2026 – Present</time>
       </header>
-      <p class="entry-role">Agent Algorithm</p>
+      <p class="entry-role">Research & Development Intern</p>
     </div>
   </article>
 
@@ -34,7 +34,7 @@ permalink: /experiences/
       <header class="entry-heading">
         <div>
           <span class="entry-kicker">Industry Experience</span>
-          <h2>Tencent - WXG - WeChat Pay Team</h2>
+          <h2>WXG - WeChat Pay Team</h2>
         </div>
         <time>Jul. 2025 – Aug. 2026</time>
       </header>
@@ -50,7 +50,7 @@ permalink: /experiences/
       <header class="entry-heading">
         <div>
           <span class="entry-kicker">Industry Experience</span>
-          <h2>Tencent - WXG - Technology Architecture Department</h2>
+          <h2>WXG - Technology Architecture Department</h2>
         </div>
         <time>Dec. 2024 – Jun. 2025</time>
       </header>
