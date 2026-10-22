@@ -10,23 +10,21 @@ permalink: /experiences/
 <h2 class="profile-section-title">Industry</h2>
 
 <div class="profile-timeline">
-  {% comment %}
   <article class="profile-entry">
     <div class="org-logo org-logo--wide">
-      <img src="{{ '/assets/img/logos/ailab.png' | relative_url }}" alt="Shanghai Artificial Intelligence Laboratory logo">
+      <img src="{{ '/assets/img/logos/bytedance.png' | relative_url }}" alt="ByteDance logo">
     </div>
     <div class="entry-body">
       <header class="entry-heading">
         <div>
           <span class="entry-kicker">Industry Experience</span>
-          <h2>Shanghai Artificial Intelligence Laboratory</h2>
+          <h2>ByteDance - Douyin R&amp;D - AI Technology Research &amp; Enablement</h2>
         </div>
-        <time>Sep. 2026 – Present</time>
+        <time>Oct. 2026 – Present</time>
       </header>
-        <p class="entry-role">Research Intern</p>
+      <p class="entry-role">Agent Algorithm</p>
     </div>
   </article>
-  {% endcomment %}
 
   <article class="profile-entry">
     <div class="org-logo org-logo--wide">
